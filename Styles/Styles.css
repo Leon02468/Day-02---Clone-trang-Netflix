@@ -1,0 +1,37 @@
+#Netflix{
+    color: red;
+}
+
+#Sign_in{
+    color: aliceblue;
+}
+
+.Input{
+    background-color: rgb(212, 206, 206);
+    color: rgb(118, 122, 118);
+}
+
+span{
+    color: grey;
+}
+
+a{
+    color: grey;
+}
+
+#SignIn_btn{
+    background-color: rgb(255, 0, 51);
+    color: rgb(255, 255, 255);
+}
+
+#main{
+    margin: 0px;
+    padding: 0px;
+}
+
+#form{
+    width: 100%;
+    border-radius: 4px;
+    margin: 0px;
+    padding: 20px 0 30px;
+}
