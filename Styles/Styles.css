@@ -1,14 +1,86 @@
+body{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/e451379a-dd0a-4657-b530-4ca4c0cb2aee/759dc829-d242-41b3-b2ec-25d2e4602268/VN-vi-20230123-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+#container{
+    background-color: black;
+    width: 350px;
+    margin: 0 auto;
+    height: 550px;
+    padding: 50px;
+    border-radius: 10px;
+    filter: opacity(90%);
+}
+
 #Netflix{
+    font-size: 40px;
     color: red;
 }
 
 #Sign_in{
+    margin: 0 auto;
     color: aliceblue;
 }
 
 .Input{
-    background-color: rgb(212, 206, 206);
-    color: rgb(118, 122, 118);
+    width: 350px;
+    height: 50px;
+    margin: 0 0 20px 0;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+input::placeholder{
+    color: darkgray;
+}
+
+#SignIn_btn{
+    width: 350px;
+    height: 50px;
+    margin: 20px 0 0;
+    border-radius: 10px;
+    background-color: red;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+#form{
+    width: 100%;
+    border-radius: 4px;
+    margin: 0px;
+    padding: 20px 0 30px;
+}
+
+#beside{
+    margin-top: 60px;
+}
+
+#footer{
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    margin-top: 100px;
+    filter: opacity(90%);
+}
+
+#information{
+    padding: 50px 0;
+    margin: 0 150px;
+}
+
+#side-inf{
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 0 12px 0 0;
+    width: 25%;
 }
 
 span{
@@ -17,21 +89,4 @@ span{
 
 a{
     color: grey;
-}
-
-#SignIn_btn{
-    background-color: rgb(255, 0, 51);
-    color: rgb(255, 255, 255);
-}
-
-#main{
-    margin: 0px;
-    padding: 0px;
-}
-
-#form{
-    width: 100%;
-    border-radius: 4px;
-    margin: 0px;
-    padding: 20px 0 30px;
 }
